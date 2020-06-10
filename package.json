@@ -1,0 +1,38 @@
+{
+  "name": "npmpackagedemo",
+  "version": "0.0.1",
+  "description": "A npm package template project which use webpack, babel, typescript, eslint, tslint and jest.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "webpack",
+    "babel",
+    "typescript",
+    "eslint",
+    "tslint",
+    "jest"
+  ],
+  "author": "haoyu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@types/lodash": "^4.14.155",
+    "babel-loader": "^8.1.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.10.2"
+  }
+}
