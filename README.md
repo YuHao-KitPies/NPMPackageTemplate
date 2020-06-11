@@ -1,2 +1,2 @@
 # NPMPackageTemplate
-A npm package template project which use webpack, babel, typescript, eslint, tslint and jest.
+A npm library template which use webpack, babel, typescript, eslint, tslint and jest.

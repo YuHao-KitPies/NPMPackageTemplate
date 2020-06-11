@@ -27,6 +27,7 @@
     "@babel/preset-env": "^7.10.2",
     "@types/lodash": "^4.14.155",
     "babel-loader": "^8.1.0",
+    "fork-ts-checker-webpack-plugin": "^4.1.6",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5",
     "webpack": "^4.43.0",
