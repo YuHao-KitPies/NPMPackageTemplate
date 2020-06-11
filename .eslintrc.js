@@ -8,15 +8,18 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 11
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint", 
+        "prettier"
     ],
     "rules": {
+        "prettier/prettier": "error"
     }
 };
