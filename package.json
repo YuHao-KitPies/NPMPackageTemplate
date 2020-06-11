@@ -1,7 +1,7 @@
 {
   "name": "npmpackagedemo",
   "version": "0.0.1",
-  "description": "A npm package template project which use webpack, babel, typescript, eslint, tslint and jest.",
+  "description": "A npm package template project which use webpack, babel, typescript, eslint and jest.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
@@ -15,7 +15,6 @@
     "babel",
     "typescript",
     "eslint",
-    "tslint",
     "jest"
   ],
   "author": "haoyu",
@@ -26,7 +25,11 @@
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@types/lodash": "^4.14.155",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
     "babel-loader": "^8.1.0",
+    "eslint": "^7.2.0",
+    "eslint-loader": "^4.0.2",
     "fork-ts-checker-webpack-plugin": "^4.1.6",
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5",

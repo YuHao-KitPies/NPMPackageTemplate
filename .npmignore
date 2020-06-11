@@ -4,3 +4,6 @@ node_modules
 .npmignore
 tsconfig.json
 .git
+webpack.config.js
+package-lock.json
+.babelrc
