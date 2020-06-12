@@ -8,18 +8,28 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint", 
         "plugin:prettier/recommended"
     ],
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 11
     },
-    "plugins": [
-        "@typescript-eslint"
-    ],
+    "parser": "babel-eslint",
     "rules": {
-    }
+    },
+    "overrides": [
+        {
+            "files": ["src/**/*.ts", "test/**/*.ts"],
+            "extends": [
+                "eslint:recommended",
+                "plugin:@typescript-eslint/eslint-recommended",
+                "plugin:@typescript-eslint/recommended",
+                "prettier/@typescript-eslint",
+                "plugin:prettier/recommended"
+            ],
+            "parser": "@typescript-eslint/parser",
+            "plugins": [
+                "@typescript-eslint"
+            ],
+        }
+    ]
 };

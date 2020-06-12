@@ -11,13 +11,8 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.ts$/,
+                test: /\.[jt]s$/,
                 use: ["babel-loader", "ts-loader", "eslint-loader"],
-                exclude: /node_modules/
-            },
-            {
-                test: /\.js$/,
-                use: ["babel-loader", "eslint-loader"],
                 exclude: /node_modules/
             }
         ]
