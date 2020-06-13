@@ -13,3 +13,4 @@ package-lock.json
 jest.config.js
 coverage
 build
+typedoc.json
