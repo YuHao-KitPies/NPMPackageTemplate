@@ -9,38 +9,38 @@ The library will be transpiled to  ES5 code which is a much more widely supporte
 Assuming that npm is already installed.
 Clone the project to local and under the project root directory run:
 
-npm install
+`` npm install ``
 
 ### Check code 
 Under the project root directory, run:
 
-npm run lint 
+`` npm run lint ``
 
 ### Auto formate code
 Under the project root directory, run:
 
-npm run lint:fix
+`` npm run lint:fix ``
 
 ### Test code 
 Under the project root directory, run:
 
-npm run test
+`` npm run test ``
 
 ### Build project
 Under the project root directory, run:
 
-npm run test
+`` npm run test ``
 
 This will trigger to run sequentially lint:fix, test, docs and build itself.
 
 ### Generate docs
 Under the project root directory, run:
 
-npm run docs
+`` npm run docs ``
 
 ### Clean project
 Under the project root directory, run:
 
-npm run clean
+`` npm run clean ``
 
 
