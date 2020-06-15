@@ -14,3 +14,4 @@ jest.config.js
 coverage
 build
 typedoc.json
+.DS_Store
